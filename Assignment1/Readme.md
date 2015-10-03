@@ -8,14 +8,14 @@ The system must use real-time pricing via Yahoo finance API and will support USD
             “budget” : float32
       Response
             “tradeId”: number
-            “stocks”: string (E.g. “GOOG:100:$500.25”, “YHOO:200:$31.40”)
+            “stocks”: string (E.g. “GOOG:110:$500.25”, “YHOO:200:$31.40”)
             “unvestedAmount”: float32
 
 2. Checking your portfolio (loss/gain)
       Request
             “tradeId”: number
       Response
-            “stocks”: string (E.g. “GOOG:100:+$520.25”, “YHOO:200:-$30.40”)
+            “stocks”: string (E.g. “GOOG:110:+$520.25”, “YHOO:200:-$30.40”)
             “currentMarketValue” : float32
             “unvestedAmount”: float32
           
